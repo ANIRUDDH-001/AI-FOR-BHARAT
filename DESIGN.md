@@ -330,8 +330,8 @@ graph LR
     Vercel -->|Deploy| EdgeNetwork
     
     subgraph "Environments"
-        Prod[Production (algomind.app)]
-        Preview[PR Previews]
+        Prod["Production (algomind.app)"]
+        Preview["PR Previews"]
     end
 ```
 
