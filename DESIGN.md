@@ -17,7 +17,7 @@ AlgoMind follows a **"Voice-First, Latency-Critical"** design philosophy. Since 
 
 ```mermaid
 graph TD
-    User[User (Browser/Mobile)] -->|Voice Audio| STT[Speech-to-Text (Browser Native)]
+    User["User (Browser/Mobile)"] -->|Voice Audio| STT["Speech-to-Text (Browser Native)"]
     User -->|Code Input| Editor[Monaco Editor]
     
     subgraph "Next.js Edge Layer"
@@ -25,7 +25,7 @@ graph TD
     end
     
     subgraph "AI Orchestration (Antigravity Router)"
-        ServerAction -->|Context Lookup| VectorDB[(Local JSON Vector Store / pgvector)]
+        ServerAction -->|Context Lookup| VectorDB[("Local JSON Vector Store / pgvector")]
         VectorDB -->|Retrieved Docs| Router{UnifiedAIClient}
         Router -->|Complex Logic| Gemini[Gemini 2.5 Flash]
         Router -->|Fast Chat| Groq[Groq Llama 3]
