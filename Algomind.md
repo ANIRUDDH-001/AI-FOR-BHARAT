@@ -319,11 +319,6 @@ Dose-response curve for interview practice
 
 ### **8.2 Horizontal Scaling (Market Expansion)**
 
-**Geographic:**
-- **Year 1**: India (Tier 2/3 cities focus)
-- **Year 2**: Southeast Asia (Indonesia, Philippines - similar challenges)
-- **Year 3**: Latin America, Africa (emerging tech markets)
-
 **Institutional Partnerships:**
 - **500+ Engineering Colleges**: AlgoMind as placement prep tool (₹10,000/year for 500 students)
 - **Coding Bootcamps**: White-label integration (Scaler, Masai, Coding Ninjas)
@@ -674,8 +669,7 @@ xychart-beta
 
 **Team Name**: AlgoMind  
 **Team Members**: Aniruddh Vijayvargia & Prachi Agarwalla
-**Email**: aniruddhvijayvargia@gmail.com  
-**GitHub**: [Repository Link]  
+**Email**: aniruddhvijayvargia@gmail.com 
 **Live Demo**: https://algomind-drab.vercel.app/
 
 ---
