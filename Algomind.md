@@ -551,7 +551,7 @@ graph TD
     Pass -->|Yes| EdgeCase[🔍 Edge Case Discussion<br/>AI: What if array is empty?]
     
     Debug --> RunCode
-    EdgeCase --> Optimize[⚡ Optimization Discussion<br/>AI: Can we do better than O(n²)?]
+    EdgeCase --> Optimize[⚡ Optimization Discussion<br/>AI: Can we do better than O n²?]
     
     Optimize --> Final([🏁 Interview Complete])
     
